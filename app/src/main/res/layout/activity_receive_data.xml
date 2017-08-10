@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shinelon.eventbus.activity.ReceiveDataActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:gravity="center_horizontal"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/s200px" />
+
+        <ImageView
+            android:id="@+id/iv_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <!--身份-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/d16px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hero_type"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/s32px" />
+
+
+                <TextView
+                    android:id="@+id/tv_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/card_cike"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/s32px" />
+
+            </LinearLayout>
+            <!--姓名-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/d16px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hero_name"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/s32px" />
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/name_libai"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/s32px" />
+
+            </LinearLayout>
+
+            <!--年龄-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/d16px">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hero_age"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/s32px" />
+
+
+                <TextView
+                    android:id="@+id/tv_age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:text="@string/age_22"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/s32px" />
+
+            </LinearLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/black_btn_bg"
+                android:onClick="goModifyHero"
+                android:text="@string/edit_other" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</LinearLayout>

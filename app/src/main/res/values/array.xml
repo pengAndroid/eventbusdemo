@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="heroTypeData">
+        <item>刺客</item>
+        <item>射手</item>
+        <item>法师</item>
+        <item>战士</item>
+        <item>坦克</item>
+        <item>辅助</item>
+    </string-array>
+
+    <string-array name="heroNameData">
+        <item>李白</item>
+        <item>韩信</item>
+        <item>猴子</item>
+        <item>兰陵王</item>
+        <item>花木兰</item>
+        <item>宫本</item>
+    </string-array>
+
+</resources>

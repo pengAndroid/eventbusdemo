@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--dp-->
+    <dimen name="corners">3dp</dimen>
+    <dimen name="d12px">6dp</dimen>
+    <dimen name="d16px">8dp</dimen>
+    <dimen name="d20px">10dp</dimen>
+    <dimen name="d46px">23dp</dimen>
+    <dimen name="d76px">38dp</dimen>
+    <!--sp-->
+    <dimen name="s32px">16sp</dimen>
+    <dimen name="s200px">100sp</dimen>
+
+</resources>
